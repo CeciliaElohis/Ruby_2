@@ -24,10 +24,11 @@ ListaHash.each do |nombre, celuar|
     puts "Nombre".ljust(10)+"Celular" 
     puts "#{nombre}".ljust(10)+"#{celuar}" 
     flag = true
-    break
+    
   end
 end
 
 if flag == false
+  puts "-------------------" 
   puts "No se encuentra ese nombre en la lista"
 end
